@@ -9,7 +9,7 @@ function HomeScreen({ navigation }) {
           backgroundColor="#9e2dd6"
           barStyle="light-content"
         />
-        <Text style={styles.welcome}>Calorie Counts</Text>
+        <Text style={styles.title}>Calorie Counts</Text>
         <Text style={styles.logintext}>Login to scan your ingredients</Text>
         <TextInput 
             placeholder="email" 
@@ -28,14 +28,14 @@ function HomeScreen({ navigation }) {
           </TouchableOpacity>
           <TouchableOpacity 
             style={styles.btn} 
-            onPress={() => alert("register pressed")}>
-            <Text style={styles.btntext}>Register</Text>
+            onPress={() => alert("Signup pressed")}>
+            <Text style={styles.btntext}>Signup</Text>
           </TouchableOpacity>
         </View>
         <View style= {{margin: 5}}>
         <Button
-          title="Go to Details"
-          onPress={() => navigation.navigate('Details')}
+          title="Scan barcode"
+          onPress={() => navigation.navigate('Scanner')}
         />
         </View>
       </View>
@@ -52,7 +52,7 @@ function HomeScreen({ navigation }) {
       justifyContent: 'center',
     },
   
-    welcome: {
+    title: {
       fontSize: 35,
       justifyContent: 'center',
       margin: 10,
@@ -66,7 +66,6 @@ function HomeScreen({ navigation }) {
       justifyContent: 'center',
       margin: 10,
       textAlign: 'center',
-      fontStyle: 'italic',
       color: '#fff',
     },
   
@@ -91,9 +90,5 @@ function HomeScreen({ navigation }) {
       alignItems: 'center',
     },
   
-    mapStyle: {
-      width: Dimensions.get('window').width,
-      height: Dimensions.get('window').height,
-    },
   
   });
