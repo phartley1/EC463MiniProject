@@ -2,10 +2,10 @@
 
 Team members: Haocun (Kelly) Wang, Paige Hartley
 
-We use Expo to build our react native app. A calorie tracker for everyday recipes. 
 
-<img scr = "images/flow.jpg">
-![ ](images/flow.jpg)
+
+![flow](https://user-images.githubusercontent.com/55924346/133949343-59dddb94-6481-4567-9a1b-c56534540d3a.jpg)
+We use Expo to build our react native app. A calorie tracker for everyday recipes. 
 
 ## App Functionalities
 ### Frontend:  
