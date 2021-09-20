@@ -38,6 +38,12 @@ function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate('Scanner')}
         />
         </View>
+        <View style= {{margin: 5}}>
+        <Button
+          title="Ingredient History"
+          onPress={() => navigation.navigate('IngredientHistory')}
+        />
+        </View>
       </View>
     ); 
   }
